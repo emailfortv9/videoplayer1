@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video.js Multi-Audio Track Example</title>
+    <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <video id="my-video" class="video-js vjs-default-skin" controls>
+        <source src="https://s3.tebi.io/gigandi1/Raatchasan.2018.4K.mp4" type='video/mp4'>
+        <track kind="captions" src="captions_en.vtt" srclang="en" label="English">
+        <track kind="captions" src="captions_es.vtt" srclang="es" label="Spanish">
+    </video>
+
+    <script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.video-js {
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%; /* 9/16 = 0.5625 */
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.video-js .vjs-tech {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
